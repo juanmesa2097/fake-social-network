@@ -1,7 +1,6 @@
 {
   "extends": "../../tslint.json",
   "rules": {
-    "component-class-suffix": [true, "Component", "Page"],
     "directive-selector": [true, "attribute", "fakeSocialNetwork", "camelCase"],
     "component-selector": [true, "element", "fake-social-network", "kebab-case"]
   },
