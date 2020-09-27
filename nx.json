@@ -37,6 +37,9 @@
     },
     "server": {
       "tags": []
+    },
+    "interfaces": {
+      "tags": []
     }
   }
 }

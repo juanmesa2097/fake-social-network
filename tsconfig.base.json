@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@fake-social-network/ui": ["libs/ui/src/index.ts"]
+      "@fake-social-network/ui": ["libs/ui/src/index.ts"],
+      "@fake-social-network/interfaces": ["libs/interfaces/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
