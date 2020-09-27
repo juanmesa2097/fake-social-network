@@ -10,6 +10,7 @@
     "build": "ng build",
     "test": "ng test",
     "test:cov": "ng test --codeCoverage=true",
+    "test:all": "nx run client:test --codeCoverage=true && nx run server:test --codeCoverage=true",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",
